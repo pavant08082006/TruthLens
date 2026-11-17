@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Model checkpoints (large weights)
+models/*.pth
+models/*.pt
+models/*.bin
+models/*.onnx
+!models/.gitkeep
+
+# Output and temp files
+*.tmp
+*.log
+truthlens_report.zip
+*.zip
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
